@@ -6,7 +6,6 @@ const CartItem = ({item,
     onRemoveFromCart,
     onUpdateCartQty}) => {
     const classes = useStyles()
-    console.log(item)
     if(!item) return 'loading....'
     return (
         <Card>
